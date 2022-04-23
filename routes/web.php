@@ -20,6 +20,7 @@ use App\Http\Controllers\InventKmController;
 use App\Http\Controllers\Laporan\LprAbstaffController;
 use App\Http\Controllers\Laporan\LprNilaiController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\SecretUrlController;
 use App\Http\Controllers\Siswa\SiswaController;
 use App\Http\Controllers\Staff\AbsesStaffController;
 use App\Http\Controllers\Staff\StaffController;
@@ -118,12 +119,13 @@ Route::get('laporan/get', [LprAbstaffController::class, 'LaporanKehadiranGet'])-
 
 
 
+
 });// End Midleware Admin
 
 });// End Prevent-Back
 
 
-
+Route::get('11213106/fajar', [SecretUrlController::class, 'Get'])->name('gass.index');
 
 
 

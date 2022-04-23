@@ -8,7 +8,7 @@
 <title>SISFO | @yield('title')</title>
 
 <!-- Favicon -->
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/favicon2.ico') }}">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/tut34.png') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/line-awesome.min.css') }}">
