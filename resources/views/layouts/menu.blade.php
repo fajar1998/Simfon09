@@ -104,7 +104,10 @@
                     </li>
                 @endif
 
-
+<li>
+                    <a href="#"><i class="la la-book"></i> <span>
+                            Raport(Segera)</span></a>
+                </li>
                 <li>
                     <a href="#"><i class="la la-book"></i> <span>
                             Dokumentasi(Segera)</span></a>

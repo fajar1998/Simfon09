@@ -35,7 +35,7 @@
     <!-- Main Wrapper -->
     <div class="main-wrapper">
         <div class="account-content">
-            <a href="{{ url('register') }}" class="btn btn-primary apply-btn">Registrasi</a>
+            {{-- <a href="{{ url('register') }}" class="btn btn-primary apply-btn">Registrasi</a> --}}
             <div class="container">
 
                 <!-- Account Logo -->

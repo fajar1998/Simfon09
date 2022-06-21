@@ -5,7 +5,7 @@
     content="admin, estimates, bootstrap, business, corporate, creative, management, minimal, modern, accounts, invoice, html5, responsive, CRM, Projects">
 <meta name="author" content="Dreamguys - Bootstrap Admin Template">
 <meta name="robots" content="noindex, nofollow">
-<title>SISFO | @yield('title')</title>
+<title>SIMFONI | @yield('title')</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/img/tut34.png') }}">

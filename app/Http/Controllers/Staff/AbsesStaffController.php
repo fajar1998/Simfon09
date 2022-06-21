@@ -15,8 +15,8 @@ class AbsesStaffController extends Controller
     }
     public function index()
     {
-        $data['allData'] = AbsenStaff::select('date')->groupBy('date')->orderBy('id','DESC')->get();
-            //   $data['allData'] = AbsenStaff::orderBy('id','DESC')->get();
+        // $data['allData'] = AbsenStaff::select('date')->groupBy('date')->orderBy('id','DESC')->get();
+              $data['allData'] = AbsenStaff::orderBy('id','DESC')->get();
 
         $data['staff']= User::where('hak_akses','3')->get();
         return view('Admin.Absensi.Staff.v_staff_abs',$data);
